@@ -23,3 +23,6 @@ Componentes como Container não geram um novo render. Widgets como Center, Align
 
 #### Aula 12
 Aqui vemos um pouco sobre implementação de MVC (Model, View, Controller) e de como podemos usar padrões de projeto como Singleton para fazer com que um controlador (Switch) regular o tema da aplicação. Para tanto, temos que fazer uso de Notifier.
+
+#### Aula 13
+É possível criar componentes para Widgets internos, isso é chamado de componentização, e permite que o código seja mais reutilizado. Através de actions é viável editar a AppBar e adicionar componentes a ela.
