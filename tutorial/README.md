@@ -17,3 +17,6 @@ Vemos as boas práticas de refatorar o código, extraindo classes para arquivos 
 
 #### Aula 10
 Para agilidade no desenvolvimento podemos usar componentes de interface gráficas já preparados como Scaffold, Material e FloatingActionButton (botão pressionável).
+
+#### Aula 11
+Componentes como Container não geram um novo render. Widgets como Center, Alignment.center e outros são multirender e possibilitam que novos Widgets sejam colocados de forma independente. Caso você tente exibir componentes um por cima do outro num single render, você verá somente o último child, com as características herdadas (altura e largura) do primeiro widget.

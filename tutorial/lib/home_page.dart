@@ -11,11 +11,16 @@ class HomePageState extends State<HomePage> {
 
   Widget build(BuildContext context){
     return Scaffold(
-        body: Center(
-          child: GestureDetector(
-            child: Text(
-              "Contando: $counter",
-            ),
+        body: Container(
+          height: 200,
+          width: 200,
+          color: Colors.black,
+          child: Center(
+            child: Container(
+              height: 100,
+              width: 100,
+              color: Colors.green,
+            )
           )
         ),
         appBar: 
