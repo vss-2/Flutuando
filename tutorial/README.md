@@ -11,3 +11,6 @@ O estado global é o Container que engloba tudo na aula 5. Os estados locais sã
 
 #### Aula 8
 Usando de um Stateful Widget podemos alterar o valor da variável que colocamos para ser exibida na da página. A função useState semelhante ao React é usada aqui para a mesma função.
+
+#### Aula 9
+Vemos as boas práticas de refatorar o código, extraindo classes para arquivos próprios para facilitar a manutenção do código.
