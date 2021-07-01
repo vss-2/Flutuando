@@ -14,3 +14,6 @@ Usando de um Stateful Widget podemos alterar o valor da variável que colocamos 
 
 #### Aula 9
 Vemos as boas práticas de refatorar o código, extraindo classes para arquivos próprios para facilitar a manutenção do código.
+
+#### Aula 10
+Para agilidade no desenvolvimento podemos usar componentes de interface gráficas já preparados como Scaffold, Material e FloatingActionButton (botão pressionável).
