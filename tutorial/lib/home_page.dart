@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:tutorial/app_controller.dart';
+
 
 class HomePage extends StatefulWidget {
   State<StatefulWidget> createState() {
@@ -11,17 +13,13 @@ class HomePageState extends State<HomePage> {
 
   Widget build(BuildContext context){
     return Scaffold(
-        body: Container(
-          height: 200,
-          width: 200,
-          color: Colors.black,
-          child: Center(
-            child: Container(
-              height: 100,
-              width: 100,
-              color: Colors.green,
-            )
-          )
+        body: Center(
+          child: Switch(
+            value: AppController.instance.isDarkTheme,
+            onChanged: (value){
+              AppController.instance.changeTheme();
+            },
+          ),
         ),
         appBar: 
           AppBar(

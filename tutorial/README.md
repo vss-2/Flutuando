@@ -20,3 +20,6 @@ Para agilidade no desenvolvimento podemos usar componentes de interface gráfica
 
 #### Aula 11
 Componentes como Container não geram um novo render. Widgets como Center, Alignment.center e outros são multirender e possibilitam que novos Widgets sejam colocados de forma independente. Caso você tente exibir componentes um por cima do outro num single render, você verá somente o último child, com as características herdadas (altura e largura) do primeiro widget.
+
+#### Aula 12
+Aqui vemos um pouco sobre implementação de MVC (Model, View, Controller) e de como podemos usar padrões de projeto como Singleton para fazer com que um controlador (Switch) regular o tema da aplicação. Para tanto, temos que fazer uso de Notifier.
