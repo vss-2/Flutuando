@@ -1,4 +1,5 @@
 # tutorial
+## Baseado na [playlist](https://www.youtube.com/playlist?list=PLlBnICoI-g-d-J57QIz6Tx5xtUDGQdBFB) do canal [Flutterando](https://www.youtube.com/c/Flutterando) 
 
 #### Aula 5
 Criando interface básica com estilo simples e sem uso de Stateless ou Statefull.
@@ -26,3 +27,6 @@ Aqui vemos um pouco sobre implementação de MVC (Model, View, Controller) e de 
 
 #### Aula 13
 É possível criar componentes para Widgets internos, isso é chamado de componentização, e permite que o código seja mais reutilizado. Através de actions é viável editar a AppBar e adicionar componentes a ela.
+
+#### Aula 14
+Vimos como alinhar os componentes usando como referência a estrutura implementada usando colunas e seus ajustes: ao centro, à esquerda e à direita.

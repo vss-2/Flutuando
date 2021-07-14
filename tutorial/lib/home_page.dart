@@ -13,8 +13,24 @@ class HomePageState extends State<HomePage> {
 
   Widget build(BuildContext context){
     return Scaffold(
-        body: Center(
-          child: CustomSwitch()
+        body: Container(
+          // Usa todo o espaço disponível na largura e altura
+          width: double.infinity,
+          height: double.infinity,
+          child: Column(
+            // Alinha ao meio da tela
+            mainAxisAlignment: MainAxisAlignment.center,
+            // Alinha à esquerda
+            crossAxisAlignment: CrossAxisAlignment.start,
+            // Alinha ao direita
+            // crossAxisAlignment: CrossAxisAlignment.end,
+            // Estica pra ambos os lados
+            // crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Text('Contador: $counter'),
+              CustomSwitch()
+            ]
+          )
         ),
         appBar: 
           AppBar(
