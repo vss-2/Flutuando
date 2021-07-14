@@ -36,3 +36,6 @@ Dado que podemos elaborar as telas de forma declarativa, significa que podemos c
 
 #### Aula 16
 Quando vários componentes da tela ocupam espaço e fogem da área da tela, ocorre um erro de exibição no Flutter. Para contornar o problema, devemos criar um componente chamado ListView que permite que o excedente de conteúdo seja exibido através de uma scrollada pela página.
+
+#### Aula 17
+Somos apresentados a novos componentes como o TextField, TextInput, seus decoradores como InputDecoration (obscureText, TextInputType), além disso, vimos como criar um RaisedButton (uso não mais recomendado, substituído por ElevatedButton), e usar de um SingleChildScrollView para tornar a tela scrollável automaticamente para o teclado não encobrir o botão de entrar (este componente requer uma alternação na forma em como executamos a definição do tamanho da tela, pois necessita usar de MediaQuery para capturar os limites verticais e horizontais).
