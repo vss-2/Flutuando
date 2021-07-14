@@ -18,17 +18,34 @@ class HomePageState extends State<HomePage> {
           width: double.infinity,
           height: double.infinity,
           child: Column(
-            // Alinha ao meio da tela
+            // Ambos os eixos no centro
             mainAxisAlignment: MainAxisAlignment.center,
-            // Alinha à esquerda
-            crossAxisAlignment: CrossAxisAlignment.start,
-            // Alinha ao direita
-            // crossAxisAlignment: CrossAxisAlignment.end,
-            // Estica pra ambos os lados
-            // crossAxisAlignment: CrossAxisAlignment.stretch,
+            // Espaço entre itens é igual (começa 0 e vai até o outro máximo da tela)
+            // mainAxisAlignment: MainAxisAlignment.spaceAround,
+            // Espaço se afastando igualmente das extremidades esquerda e direita
+            // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Text('Contador: $counter'),
-              CustomSwitch()
+              Container(height: 50),
+              CustomSwitch(),
+              Container(height: 50),
+              Row(
+                // Espaço entre itens (espaço ao redor do item, estilo margem), é muito usado
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Container(
+                    width: 50,
+                    height: 50,
+                    color: Colors.black
+                  ),
+                  Container(
+                    width: 50,
+                    height: 50,
+                    color: Colors.green
+                  )
+                ],
+              )
             ]
           )
         ),

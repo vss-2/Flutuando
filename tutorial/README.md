@@ -30,3 +30,6 @@ Aqui vemos um pouco sobre implementação de MVC (Model, View, Controller) e de 
 
 #### Aula 14
 Vimos como alinhar os componentes usando como referência a estrutura implementada usando colunas e seus ajustes: ao centro, à esquerda e à direita.
+
+#### Aula 15
+Dado que podemos elaborar as telas de forma declarativa, significa que podemos combinar elementos e estruturas de forma a elaborar a desejada tela da aplicação. Aqui vimos a estrutura de linhas e como mesclar a estrutura de colunas com ela, usando de Containers vazios para fazer o espaçamento entre componentes. A estilização de linhas também é abordada.
