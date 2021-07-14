@@ -17,17 +17,29 @@ class HomePageState extends State<HomePage> {
           // Usa todo o espaço disponível na largura e altura
           width: double.infinity,
           height: double.infinity,
-          child: Column(
-            // Ambos os eixos no centro
-            mainAxisAlignment: MainAxisAlignment.center,
-            // Espaço entre itens é igual (começa 0 e vai até o outro máximo da tela)
-            // mainAxisAlignment: MainAxisAlignment.spaceAround,
-            // Espaço se afastando igualmente das extremidades esquerda e direita
-            // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          child: ListView(
+            // Alterna o eixo da lista
+            scrollDirection: Axis.vertical,
             children: [
               Text('Contador: $counter'),
               Container(height: 50),
               CustomSwitch(),
+              Container(height: 50),
+              Container(height: 50),
+              Container(height: 50),
+              Container(height: 50),
+              Container(height: 50),
+              Container(height: 50),
+              Container(height: 50),
+              Container(height: 50),
+              Container(height: 50),
+              Container(height: 50),
+              Container(height: 50),
+              Container(height: 50),
+              Container(height: 50),
+              Container(height: 50),
+              Container(height: 50),
+              Container(height: 50),
               Container(height: 50),
               Row(
                 // Espaço entre itens (espaço ao redor do item, estilo margem), é muito usado

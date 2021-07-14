@@ -33,3 +33,6 @@ Vimos como alinhar os componentes usando como referência a estrutura implementa
 
 #### Aula 15
 Dado que podemos elaborar as telas de forma declarativa, significa que podemos combinar elementos e estruturas de forma a elaborar a desejada tela da aplicação. Aqui vimos a estrutura de linhas e como mesclar a estrutura de colunas com ela, usando de Containers vazios para fazer o espaçamento entre componentes. A estilização de linhas também é abordada.
+
+#### Aula 16
+Quando vários componentes da tela ocupam espaço e fogem da área da tela, ocorre um erro de exibição no Flutter. Para contornar o problema, devemos criar um componente chamado ListView que permite que o excedente de conteúdo seja exibido através de uma scrollada pela página.
