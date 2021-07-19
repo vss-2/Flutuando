@@ -48,3 +48,6 @@ Vimos como fazer rotas e como configurar o Navigator para acessar rotas ao invé
 
 #### Aula 20
 Uso da ferramenta nativa do VSCode de Breakpoint para congelar o fluxo de execução do sistema para fazer debbuging. 
+
+#### Aula 21
+Usamos da biblioteca nativa Image para importar imagens da internet.

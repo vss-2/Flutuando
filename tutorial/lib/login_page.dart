@@ -25,6 +25,16 @@ class _LoginPageState extends State<LoginPage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                Container(
+                  width: 32,
+                  height: 32,
+                  child: Image.network(
+                    'https://cin.ufpe.br/~vss2/BOLAUM/assets/favicon-32x32.png'
+                  )
+                ),
+                Container(
+                  height: 10,
+                ),
                 TextField(
                   onChanged: (text){
                     email = text;
