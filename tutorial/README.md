@@ -42,3 +42,6 @@ Somos apresentados a novos componentes como o TextField, TextInput, seus decorad
 
 #### Aula 18
 Introdução a função Navigator e a lógica de navegação de telas do Flutter. O Flutter funciona como um array de páginas, mas existem 2 lógicas que envolvem tal navegação. Aqui vemos a mais simples, onde apenas transmitimos o contexto para a próxima tela e executamos um push. Também temos o pushReplacement que desabilita o botão de voltar a tela anterior.
+
+#### Aula 19
+Vimos como fazer rotas e como configurar o Navigator para acessar rotas ao invés de apontarmos para telas (apontamos para a rota).
