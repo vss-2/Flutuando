@@ -51,3 +51,6 @@ Uso da ferramenta nativa do VSCode de Breakpoint para congelar o fluxo de execu�
 
 #### Aula 21
 Usamos da biblioteca nativa Image para importar imagens da internet.
+
+#### Aula 22
+Temos como usar imagens embarcadas no nosso projeto, basta adicionar o caminho relativo da imagem no pubspec.yaml e depois, usando a mesma biblioteca Image, usar o método asset para adicionar a imagem na página.

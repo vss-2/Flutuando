@@ -26,10 +26,10 @@ class _LoginPageState extends State<LoginPage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
-                  width: 32,
-                  height: 32,
-                  child: Image.network(
-                    'https://cin.ufpe.br/~vss2/BOLAUM/assets/favicon-32x32.png'
+                  width: 182,
+                  height: 182,
+                  child: Image.asset(
+                    'assets/images/favicon.png'
                   )
                 ),
                 Container(
