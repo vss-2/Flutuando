@@ -45,3 +45,6 @@ Introdução a função Navigator e a lógica de navegação de telas do Flutter
 
 #### Aula 19
 Vimos como fazer rotas e como configurar o Navigator para acessar rotas ao invés de apontarmos para telas (apontamos para a rota).
+
+#### Aula 20
+Uso da ferramenta nativa do VSCode de Breakpoint para congelar o fluxo de execução do sistema para fazer debbuging. 
