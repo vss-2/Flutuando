@@ -39,3 +39,6 @@ Quando vários componentes da tela ocupam espaço e fogem da área da tela, ocor
 
 #### Aula 17
 Somos apresentados a novos componentes como o TextField, TextInput, seus decoradores como InputDecoration (obscureText, TextInputType), além disso, vimos como criar um RaisedButton (uso não mais recomendado, substituído por ElevatedButton), e usar de um SingleChildScrollView para tornar a tela scrollável automaticamente para o teclado não encobrir o botão de entrar (este componente requer uma alternação na forma em como executamos a definição do tamanho da tela, pois necessita usar de MediaQuery para capturar os limites verticais e horizontais).
+
+#### Aula 18
+Introdução a função Navigator e a lógica de navegação de telas do Flutter. O Flutter funciona como um array de páginas, mas existem 2 lógicas que envolvem tal navegação. Aqui vemos a mais simples, onde apenas transmitimos o contexto para a próxima tela e executamos um push. Também temos o pushReplacement que desabilita o botão de voltar a tela anterior.

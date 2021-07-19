@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tutorial/home_page.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -54,6 +55,9 @@ class _LoginPageState extends State<LoginPage> {
                   onPressed: (){
                     if(email == 'teste@teste.com' && password == '123456'){
                       print('Login Correto');
+                      Navigator.of(context).pushReplacement(
+                        MaterialPageRoute(builder: (context) => HomePage()),
+                      );
                     } else {
                       print('Login Incorreto');
                     }
